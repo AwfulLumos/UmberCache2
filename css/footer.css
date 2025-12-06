@@ -1,0 +1,113 @@
+/* ============================================
+   FOOTER
+   ============================================ */
+
+footer {
+    background: var(--white);
+    color: var(--text-color);
+    text-align: center;
+    padding: 3rem 2rem 2rem;
+    margin-top: 4rem;
+    position: relative;
+    border-top: 4px solid var(--primary-color);
+    box-shadow: 0 -10px 40px rgba(253, 121, 121, 0.08);
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(253, 121, 121, 0.3);
+}
+
+footer::after {
+    content: '📚';
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+}
+
+.footer-section h4 {
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    padding: 0.25rem 0;
+}
+
+.footer-nav a:hover {
+    color: var(--primary-color);
+    padding-left: 0.5rem;
+}
+
+.footer-author,
+.footer-course,
+.footer-school,
+.footer-contact {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.footer-quote {
+    border-top: 2px dashed var(--accent-light);
+    border-bottom: 2px dashed var(--accent-light);
+    padding: 1.5rem 0;
+    margin: 1.5rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-quote p {
+    font-style: italic;
+    font-size: 0.95rem;
+    margin: 0;
+    text-align: center;
+    color: var(--accent-dark);
+}
+
+.footer-bottom {
+    margin-top: 1.5rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+}

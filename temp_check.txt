@@ -1,0 +1,20 @@
+﻿          <p>Archetypal Elements in the Story</p>
+          <ul>
+            <li>
+              The Snake as the Villain - The snake represents danger, fear and
+              destruction. Like many villains in stories, it threatens the lives
+              of the innocent and creates constant harm.
+            </li>
+            <li>
+              The Crow as the Hero - Even though the crow is not powerful, it is
+              determined to protect its family. This makes the crow a “hero”
+              figure someone who refuses to give up despite suffering losses.
+            </li>
+            <li>
+              The Jackal as the Wise Helper - The jackal plays the role of the
+              guide or mentor. He gives the crows the advice they need when they
+              feel lost and hopeless.
+            </li>
+            <li>
+              Cleverness as the Winning Strategy - Instead of fighting strength
+              with strength, the crows use a trick to defeat the snake. This is

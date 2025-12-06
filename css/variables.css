@@ -1,0 +1,25 @@
+/* ============================================
+   VARIABLES & COLOR PALETTE
+   ============================================ */
+
+:root {
+    /* Colors (UNCHANGED) */
+    --primary-color: #FD7979;
+    --secondary-color: #FDACAC;
+    --accent-color: #FD7979;
+    --accent-light: #FFCDC9;
+    --accent-dark: #e86565;
+    --text-color: #1a1a1a;
+    --light-bg: #FEEAC9;
+    --white: #ffffff;
+    --border-color: #FFCDC9;
+    
+    /* Shadows */
+    --shadow: 0 4px 12px rgba(253, 121, 121, 0.15);
+    --shadow-hover: 0 8px 24px rgba(253, 121, 121, 0.25);
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #FD7979 0%, #FDACAC 100%);
+    --gradient-accent: linear-gradient(135deg, #FD7979 0%, #FFCDC9 100%);
+    --gradient-soft: linear-gradient(135deg, #FEEAC9 0%, #FFCDC9 100%);
+}
