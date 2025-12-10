@@ -69,10 +69,10 @@
 
 /* Sections */
 .section {
-    display: none;
+    display: block;
     min-height: calc(100vh - 200px);
     padding: 2rem 0;
-    animation: pageSlide 0.5s ease;
+    opacity: 1;
 }
 
 .section.active {
